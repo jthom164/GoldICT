@@ -1,0 +1,65 @@
+/** Imports **/
+@import url(https://fonts.googleapis.com/css?family=Noto%20Sans);
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+@font-face {
+    font-family: NotoColorEmojiLimited;
+    unicode-range: U+1F1E6-1F1FF;
+    src: url(https://raw.githack.com/googlefonts/noto-emoji/main/fonts/NotoColorEmoji.ttf);
+}
+
+/** Default Main **/
+/* '*' is used for defualt page parameters, these are best left alone. */
+* {
+    font-family: 'NotoColorEmojiLimited', 'Noto Sans', 'Open Sans',  sans-serif;
+    font-size: medium;
+    padding: 0 0;
+    margin: 0 0;
+    z-index: 0;
+}
+
+/* root is Root element which sits behined body. */
+:root {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: blue;
+    width: max-content;
+    height: max-content;
+    width: 99%;
+    height: 99%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: blueviolet;
+    width: 100%;
+    height: 10%;
+    top: 0;
+}
+
+.main_container {
+    color: black;
+    background-color: whitesmoke;
+    width: 50%;
+    height: 50%;
+    flex-grow: 1;
+}
+
+footer {
+    background-color: blueviolet;
+    width: 100%;
+    height: 10%;
+    bottom: 0;
+}
