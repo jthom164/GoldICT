@@ -63,3 +63,31 @@ footer {
     height: 10%;
     bottom: 0;
 }
+/* Lists */
+.CadetList {
+    color: aqua;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.CadetList-Content {
+    display: None;
+    position: absolute;
+}
+
+.CadetList:hover .CadetList-Content {
+    display: block;
+}
+
+/* Text */
+.title {
+    color: #000;
+}
+.maintext {
+    color: #000;
+}
+
+.center-text {
+    text-align: center;
+}
